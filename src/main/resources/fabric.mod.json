@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "skillforge",
+  "version": "${version}",
+  "name": "Skillforge",
+  "description": "A configurable server-side scheduling and communication toolkit for Fabric servers.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/skillforge/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.olliesbrother.Skillforge"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "mixins": [
+    "skillforge.mixins.json"
+  ]
+}

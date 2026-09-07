@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.olliesbrother.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockItemMixin",
+    "FishingBobberEntityMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
